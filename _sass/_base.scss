@@ -1,0 +1,41 @@
+$font: "Open Sans", sans-serif;
+$primary: #FFFFFF;
+$secondary: #00E;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font;
+  font-size: 1em;
+  background-color: darken($primary, 7%);
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+a {
+  color: $secondary;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0 5px;
+}
+
+ul {
+  margin: 16px 0;
+  padding-left: 40px;
+}

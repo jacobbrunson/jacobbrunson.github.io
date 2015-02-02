@@ -2,22 +2,43 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
+    <div class="box software">
+        <h3>Software</h3>
+        <ul>
+            <li><a href="https://scores.jacobbrunson.me">PSAT Early Access Score Checker</a></li>
+            <li><a href="http://jacobbrunson.me/lights">OpenGL 2D Lighting Engine</a></li>
+            <li><a href="http://brunsonburner.com">Web Development</a></li>
+            <li><a href="https://www.youtube.com/watch?v=G4R9qPCT4Ho">OpenCV Ball Tracking</a></li>
+        </ul>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    <div class="box hardware">
+        <h3>Hardware</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=FMUTV6kwm6M">Color Code Door Lock</a></li>
+            <li><a href="https://www.youtube.com/watch?v=8MMJ7WfxnNw">Automatic Light Switch</a></li>
+            <li><a href="https://www.youtube.com/watch?v=5vzerlMPgMw">LED CPU Usage Meter</a></li>
+        </ul>
+    </div>
 </div>
+
+<!--<div class="home">-->
+
+<!--<h1 class="page-heading">hey</h1>-->
+
+<!--<ul class="post-list">-->
+<!--{% for post in site.posts %}-->
+<!--<li>-->
+<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+
+<!--<h2>-->
+<!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
+<!--</h2>-->
+<!--</li>-->
+<!--{% endfor %}-->
+<!--</ul>-->
+
+<!--<p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS how does this even work?</a></p>-->
+
+<!--</div>-->

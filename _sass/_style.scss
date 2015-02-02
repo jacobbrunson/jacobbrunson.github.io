@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 10px auto 0;
+}
+
+.header {
+  text-align: center;
+  width: 100%;
+}
+
+.box {
+  background-color: $primary;
+  border:1px solid darken($primary, 20%);
+  border-right-color: darken($primary, 13%);
+  border-left-color: darken($primary, 13%);
+  border-bottom: none;
+  padding: 10px 15px;
+  margin: 10px 0;
+  float: left;
+  box-sizing: border-box;
+}
+
+.row {
+  min-height: 195px;
+  margin: 0 0 10px 0;
+  width:100%;
+  overflow: hidden;
+}
+
+.software, .hardware {
+  width: 48.5%;
+  height: 100%;
+  margin-bottom: -9999px;
+  padding-bottom: 9999px;
+}
+
+.software {
+  margin-right: 3%;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 20px;
+    white-space: nowrap;
+  }
+
+}
+
